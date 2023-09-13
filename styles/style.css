@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Montserrat:ital@1&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: black;
+  color: #f6f6f6;
+}
+
+.cabecalio {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: #000000;
+  background-color: #22d4fd;
+}
+
+.home {
+  margin-left: 10%;
+  font-family: "montsseraf", sans-serif;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+}
+
+.sobre {
+  margin-left: 2.5%;
+  color: black;
+  font-family: "montsserat", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.titulo {
+  color: #22d4fd;
+  margin-bottom: 6%;
+}
+
+.apresentacao {
+  gap: 82px;
+  margin-top: 9%;
+  margin-bottom: 18.4%;
+  margin-left: 9.4%;
+  margin-right: 9.4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apresentacaofilho {
+  margin-left: 1%;
+  width: 37%;
+  height: 25%;
+}
+
+.tituloh1 {
+  font-size: 2.25rem;
+  margin-bottom: 8px;
+}
+
+.paragrafo {
+  font-size: 1.53rem;
+}
+
+.linguagens {
+  color: #22d4fd;
+}
+
+.img {
+  border-radius: 16px;
+
+  width: 40%;
+}
+
+.acesse {
+  margin-top: 11.2px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.botoes {
+  gap: 28px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes__estilo {
+  justify-content: center;
+  gap: 16px;
+  display: flex;
+  border: 1.3px solid #22d4fd;
+  width: 76%;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+  text-decoration: none;
+  color: #f6f6f6;
+  overflow: pointer;
+}
+
+.botoes__estilo:hover {
+  background-color: #272727;
+  color: #22d4fd;
+  transform: scale(1.07);
+}
+
+.rodape {
+  color: #000000;
+  background-color: #22d4fd;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.paragrafo_about {
+  color: #f6f6f6;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  .cabecalio {
+    gap: 45px;
+  }
+
+  .apresentacao {
+    flex-direction: column-reverse;
+  }
+
+  .apresentacaofilho {
+    width: auto;
+  }
+
+  .botoes__estilo {
+    width: 70%;
+  }
+}
+
+@media (max-width: 620px) {
+  .botoes__estilo {
+    width: 65%;
+  }
+}
+
+@media (max-width: 440px) {
+  .botoes__estilo {
+    width: 100%;
+  }
+}
